@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+	
+.cadastrar{
+	font-size: 40px;
+}
+.area-login{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+	height: auto;
+	padding: 35px;
+	width: 355px;
+	height: 320px;
+}
+
+form label{
+	color: rgb(255, 255, 255);
+	margin-top: 2em;
+}
+
+.login form{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+}
+
+.login input{
+	background-color: rgb(37, 41, 41);
+	margin-top: 10px;
+	border: none;
+	height: 45px;
+	outline: none;
+	border-radius: 8px;
+}
+
+#botao-check{
+	background-color: rgb(37, 41, 41);
+
+}
+
+.botao-entrar{
+	display: block;
+	background-color: rgb(37, 41, 41);
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.botao-entrar:hover{
+	background-color: rgb(53, 56, 56);
+	transition: 1s;
+}
